@@ -6,8 +6,8 @@
     "type": "git",
     "url": "https://github.com/ngrx/core.git"
   },
-  "main": "bundles/core.umd.js",
-  "module": "index.js",
+  "main": "release/bundles/core.umd.js",
+  "module": "release/index.js",
   "scripts": {
     "karma": "karma start --single-run",
     "test": "npm run karma",
@@ -29,16 +29,16 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "rxjs": "^5.0.0-beta.12"
+    "rxjs": "5.5.2"
   },
   "devDependencies": {
-    "@angular/common": "^2.0.0-rc.7",
-    "@angular/compiler": "^2.0.0-rc.7",
-    "@angular/compiler-cli": "^0.6.0",
-    "@angular/core": "^2.0.0-rc.7",
-    "@angular/platform-browser": "^2.0.0-rc.7",
-    "@angular/platform-browser-dynamic": "^2.0.0-rc.7",
-    "@angular/platform-server": "^2.0.0-rc.7",
+    "@angular/common": "^5.1.0",
+    "@angular/compiler": "^5.1.0",
+    "@angular/compiler-cli": "^5.1.0",
+    "@angular/core": "^5.1.0",
+    "@angular/platform-browser": "^5.1.0",
+    "@angular/platform-browser-dynamic": "^5.1.0",
+    "@angular/platform-server": "^5.1.0",
     "@types/jasmine": "^2.2.33",
     "@types/node": "^6.0.38",
     "awesome-typescript-loader": "^2.2.1",
